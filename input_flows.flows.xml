@@ -1,0 +1,18 @@
+<routes>
+
+ 
+<vType id="rescue" vClass="emergency" guiShape="emergency" speedFactor="1.5">
+   <param key="has.bluelight.device" value="true"/>
+</vType>
+
+
+    <flow id="4" from="WC" begin="100" end="200" number="2" type="rescue"/>
+
+
+    <flow id="0" from="WC" begin="0" end="300" number="40"/>
+    <flow id="1" from="SC" begin="0" end="350" number="20"/>
+    <flow id="2" from="EC" begin="0" end="330" number="20"/>
+    <flow id="3" from="NC" begin="0" end="360" number="20"/>
+    
+
+</routes>

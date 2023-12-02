@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="std_crossroad.net.xml"/>
+        <route-files value="Routes.rou.xml,std_crossroad.ped.xml"/>
+        <!-- <additional-files value="std_crossroad.tll.xml"/> -->
+        <additional-files value="std_crossroad.det.xml,emissionOut.xml"/>  
+    </input>
+
+    <output>
+        <write-license value="true"/>
+        <tripinfo-output value="tripinfos.xml" />
+        <emission-output value="true"/>
+        <fcd-output value="false"/>
+
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+    
+    <gui_only>
+        
+        <gui-settings-file value="viewsettings.xml"/>
+    </gui_only>
+    <emissions>
+        <device name="all" type="beacons" freq="1" file="emissionOut.xml" xml-validation="true">
+            <emission-coefficients source="HBEFA3/PC_G_EU6_T1_23C_0_0.xml"/>
+        </device>
+    </emissions>
+
+</configuration>

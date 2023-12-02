@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-02-17 13:29:24.932746 by turnFile2EdgeRelations.py v1_5_0+0118-a6ba6eb
+  options: -t input_turns.turns.xml -o tmp.xml
+-->
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    <interval begin="0" end="1000">
+        <edgeRelation from="WC" to="CS" probability="0.3"/>
+        <edgeRelation from="WC" to="CE" probability="0.3"/>      
+        <edgeRelation from="WC" to="CN" probability="0.4"/>
+        <edgeRelation from="SC" to="CW" probability="0.3"/>
+        <edgeRelation from="SC" to="CE" probability="0.3"/>      
+        <edgeRelation from="SC" to="CN" probability="0.4"/>
+        <edgeRelation from="EC" to="CS" probability="0.3"/>
+        <edgeRelation from="EC" to="CW" probability="0.3"/>      
+        <edgeRelation from="EC" to="CN" probability="0.4"/>
+        <edgeRelation from="NC" to="CS" probability="0.3"/>
+        <edgeRelation from="NC" to="CE" probability="0.3"/>      
+        <edgeRelation from="NC" to="CW" probability="0.4"/>
+
+
+
+
+             
+    </interval>
+</data>
